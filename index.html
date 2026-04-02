@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+   <html lang="es">
+<head>
+<meta charset="UTF-8">
+<!--Se adapta a cualquier pantalla-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Nombre de la pestaña-->
+<title>BGF-portfolio</title>
+<!--Enlace con CSS-->
+<link rel="stylesheet" href="css/styles.css">
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body> 
+<!-- No me gusta la distribución: Sobre mi, proyectos, contacto y por ulitmo la pelicula.
+ Debeberia estar la sección de peliculas dentro de "Sobre mi".-->
+    <!-- Encabezado-->
+
+    <header>
+        <h1>Mi Portafolio</h1>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#tarjetas">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+<main>          
+    <!--Sección sobre mi-->
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Brian, soy enólogo y apasionado por la computación. Ahora quiero desarrollar software para la industria vitivinícola. Creo que es un pilar fundamental en la revolución industrial 4.0.</p>
+<img src="img/openart-5836995708c84cbcb1100b5da7d4732e_raw.jpg" alt="Foto de Brian" class="foto">
+    </section>
+    <!--Sección proyectos (Tarjetas)-->
+    <section id="tarjetas">
+        <h2>Proyectos</h2>
+        <div class="contenedor-tarjetas">
+            <div class="tarjeta">
+             <h3>Primer proyecto</h3>
+             <p>Desarrollo de WebApp para sala de filtrado 12 tanques</p>
+             <img src="img/Sala de filtros.jpg" alt="App Sala de Filtros" class="foto">
+            </div>
+            <div class="tarjeta">
+             <h3>Segundo proyecto</h3>
+             <p>Desarrollo de WebApp para Gestion de vasijas de bodega mas de 100 tanques, con diferentes sectores</p>
+             <img src="img/VinoApp.jpg" alt="App VinoApp" class="foto">
+            </div>
+        </div>
+    </section>
+    <!--Sección Habilidades-->
+     <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Administración de Base de datos (MySQL)</li>
+            <li>Usuario JD Edwars</li>
+            <li>Futuro experto en Sistemas de Gestión de Operaciones</li>
+            <li>Futuro experto en WebApp</li>
+        </ul>
+    </section>
+    <!--Sección contacto-->
+    <section id="contacto">
+        <h2>¡Contactame!</h2>
+        <form class="contacto">  
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="tel" placeholder="Teléfono(opcional)">
+            <textarea placeholder="Tu comentario" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <!-- Películas-->
+     <section id="peliculas">
+        <h2>Películas Favoritas</h2>
+        <div class="pelicula">
+            <h3>Interestelar</h3>
+                <p>Una película de ciencia ficción que explora temas como el amor padre-hijo, la relatividad (espacio-tiempo) y la supervivencia humana a través de un viaje a un agujero de gusano.</p>
+             <img src="img/OIP.jpg" alt="Pelicula Interestelar 2014" class="foto">
+        </div>
+        <div class="pelicula">    
+             <h3>Avengers (EndGame)</h3>
+                <p>Una película de la gran saga de superhéroes. Reúne a los personajes más icónicos del universo Marvel para enfrentar una amenaza cósmica y salvar el universo.</p>
+             <img src="img/EndGame.jpg" alt="Pelicula Avengers EndGame 2019" class="foto">
+        </div>
+        <div class="pelicula">    
+             <h3>El origen</h3>
+                <p>Una película de ciencia ficción y acción que sigue a un ladrón especializado en robar secretos a través de la manipulación de los sueños. La trama se centra en su misión más desafiante: implantar una idea en la mente de un objetivo (persona).</p>
+             <img src="img/origen.jpg" alt="Pelicula El Origen 2010" class="foto">
+        </div>
+     </section>
+</main>
+    <!-- Pie de página-->
+     <!-- Deberia de tener mas redes para agregar en el pie de pagina.
+      Mejora futura: agregar enlaces a LinkedIn o GitHub-->
+    <footer>
+        <p>&copy; 2026 Brian G. F. Todos los derechos reservados.<br><a href="https://www.instagram.com/brianpeluca.bf?utm_source=qr&igsh=MWhjeHYwMW1zYjF6Mg=" target="_blank"> IG:brianpeluca.bf</a></p>
+    </footer>
+           </body>
+           </html>
